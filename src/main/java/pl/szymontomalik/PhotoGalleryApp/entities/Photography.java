@@ -1,0 +1,1 @@
+package pl.szymontomalik.PhotoGalleryApp.entities;import lombok.Getter;import lombok.Setter;import javax.persistence.*;@Entity@Getter@Setter@Table(name = "photographs")public class Photography {    @Id    @GeneratedValue(strategy = GenerationType.IDENTITY)    private long id;    private String name;    @ManyToOne    private Album album;}
