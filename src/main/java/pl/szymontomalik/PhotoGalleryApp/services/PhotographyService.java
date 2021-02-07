@@ -1,0 +1,1 @@
+package pl.szymontomalik.PhotoGalleryApp.services;import lombok.RequiredArgsConstructor;import org.springframework.stereotype.Service;import pl.szymontomalik.PhotoGalleryApp.repositories.PhotographyRepository;@Service@RequiredArgsConstructorpublic class PhotographyService {    private final PhotographyRepository photoRepo;}

@@ -1,0 +1,1 @@
+package pl.szymontomalik.PhotoGalleryApp.services;public class AlbumService {}
