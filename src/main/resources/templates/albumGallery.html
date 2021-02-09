@@ -1,0 +1,1 @@
+<!DOCTYPE html><html lang="en" xmlns:th="http://www.thymeleaf.org"><head>    <meta charset="UTF-8">    <title>Title</title></head><body><a href="/index">    <button>Back</button></a><br><span th:each="photo:${photos}">    <img th:src="@{${photo.getUrl()}}" alt="image" style='height: 50%; width: 50%; object-fit: contain'  src=""/></span></body></html>
